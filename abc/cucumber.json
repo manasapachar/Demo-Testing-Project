@@ -1,0 +1,381 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6177171435,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "landing page is open",
+            "match": {
+              "location": "Login.landing_page_is_open()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-21T06:42:47.621Z",
+        "line": 10,
+        "name": "Valid User",
+        "description": "",
+        "id": "validating-the-authentic-user;valid-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 401869767,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "entered usernamea as \"standard_user\" in usernamefield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Login.entered_usernamea_as_in_usernamefield(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 215752253,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "entered password as \"secret_sauce\"  in passwordfiled",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.entered_password_as_in_passwordfiled(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 241144699,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "click on button",
+            "match": {
+              "location": "Login.click_on_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1396388,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "home page should apper",
+            "match": {
+              "location": "Login.home_page_should_apper()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4390896311,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "landing page is open",
+            "match": {
+              "location": "Login.landing_page_is_open()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-21T06:42:54.774Z",
+        "line": 17,
+        "name": "Invalid User Valid Password",
+        "description": "",
+        "id": "validating-the-authentic-user;invalid-user-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 325360798,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "entered usernamea as \"standard\" in usernamefield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Login.entered_usernamea_as_in_usernamefield(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187703060,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "entered password as \"secret_sauce\"  in passwordfiled",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.entered_password_as_in_passwordfiled(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286900433,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click on button",
+            "match": {
+              "location": "Login.click_on_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1075804,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "home page should apper",
+            "match": {
+              "location": "Login.home_page_should_apper()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5853280631,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "landing page is open",
+            "match": {
+              "location": "Login.landing_page_is_open()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-21T06:42:59.981Z",
+        "line": 24,
+        "name": "Invalid User Invalid Password",
+        "description": "",
+        "id": "validating-the-authentic-user;invalid-user-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 443805912,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "entered usernamea as \"standard\" in usernamefield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Login.entered_usernamea_as_in_usernamefield(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 198011501,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "entered password as \"secret\"  in passwordfiled",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.entered_password_as_in_passwordfiled(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 318858837,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click on button",
+            "match": {
+              "location": "Login.click_on_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5083150,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "home page should apper",
+            "match": {
+              "location": "Login.home_page_should_apper()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5570776609,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "landing page is open",
+            "match": {
+              "location": "Login.landing_page_is_open()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-03-21T06:43:06.811Z",
+        "line": 32,
+        "name": "Valid User Invalid Password",
+        "description": "",
+        "id": "validating-the-authentic-user;valid-user-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 528444933,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "entered usernamea as \"standard_user\" in usernamefield",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 21
+                }
+              ],
+              "location": "Login.entered_usernamea_as_in_usernamefield(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 250972573,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "entered password as \"secret\"  in passwordfiled",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Login.entered_password_as_in_passwordfiled(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 257055800,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "click on button",
+            "match": {
+              "location": "Login.click_on_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 954106,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "home page should apper",
+            "match": {
+              "location": "Login.home_page_should_apper()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validating the authentic user",
+    "description": "",
+    "id": "validating-the-authentic-user",
+    "keyword": "Feature",
+    "uri": "file:Feature/Login.feature",
+    "tags": []
+  }
+]

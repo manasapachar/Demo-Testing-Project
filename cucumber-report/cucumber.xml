@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="25.78275">
+    <testcase classname="Validating the authentic user" name="Valid User" time="7.14022">
+        <system-out><![CDATA[Given landing page is open..................................................passed
+When entered usernamea as "standard_user" in usernamefield..................passed
+And entered password as "secret_sauce"  in passwordfiled....................passed
+And click on button.........................................................passed
+Then home page should apper.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validating the authentic user" name="Invalid User Valid Password" time="5.201274">
+        <system-out><![CDATA[Given landing page is open..................................................passed
+When entered usernamea as "standard" in usernamefield.......................passed
+And entered password as "secret_sauce"  in passwordfiled....................passed
+And click on button.........................................................passed
+Then home page should apper.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validating the authentic user" name="Invalid User Invalid Password" time="6.827503">
+        <system-out><![CDATA[Given landing page is open..................................................passed
+When entered usernamea as "standard" in usernamefield.......................passed
+And entered password as "secret"  in passwordfiled..........................passed
+And click on button.........................................................passed
+Then home page should apper.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validating the authentic user" name="Valid User Invalid Password" time="6.613753">
+        <system-out><![CDATA[Given landing page is open..................................................passed
+When entered usernamea as "standard_user" in usernamefield..................passed
+And entered password as "secret"  in passwordfiled..........................passed
+And click on button.........................................................passed
+Then home page should apper.................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
